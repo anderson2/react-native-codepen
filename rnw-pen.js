@@ -7,10 +7,7 @@ import ReactNative, {
 
 class SampleApp extends React.Component {
   render() {
-        //let pic = {uri: 'images/langlois-bridge-589px.jpg'};
-        let pic = {uri: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Vincent_Willem_van_Gogh_-_Pont_de_Langlois_-_Kr%C3%B6ller-M%C3%BCller.jpg'};
-        //<Image source={pic} style={{width: 294, height: 240}}/>
-        //<Image source={pic} style={styles.imageContainer}/>
+        let pic = {uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Vincent_Willem_van_Gogh_-_Pont_de_Langlois_-_Kr%C3%B6ller-M%C3%BCller.jpg/589px-Vincent_Willem_van_Gogh_-_Pont_de_Langlois_-_Kr%C3%B6ller-M%C3%BCller.jpg'};
 
     return (
       <View style={styles.container}>
@@ -18,16 +15,17 @@ class SampleApp extends React.Component {
           React Native App
         </Text>
         <Text style={styles.instructions}>
-          Edited in Android Studio{'\n'}
+          Edited in Android Studio and Codepen.io{'\n'}
         </Text>
         <Text style={styles.references}>
           Rob Anderson, 2016 {'\n'}
         </Text>
         
 
-
-        <Image source={pic} style={{width: 294, height: 240}}/>
-
+        <View>
+          <Image source={pic} style={styles.imageContainer}/>
+        </View>
+        
         <Text style={styles.instructions}>
           Langlois Bridge - France
         </Text>
