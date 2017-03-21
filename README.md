@@ -1,6 +1,6 @@
 ## react-native-codepen
 
-Exploring React Native by leveraging Nicolas Gallagher's [React Native for Web][react-native-web-url].
+Exploring React Native by leveraging Nicolas Gallagher's [React Native for Web](https://github.com/necolas/react-native-web).
 
 View the [codepen here][rob-anderson-codepen] or add your own JS code to the [source codepen][react-native-web-codepen-url]
 
